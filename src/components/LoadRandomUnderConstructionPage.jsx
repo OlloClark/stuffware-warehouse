@@ -1,18 +1,18 @@
 import {useState} from "react";
-import {UnderConstructionBasic} from './'
+import LandingPageOne from './Landing Pages/LandingPageOne'
 import {getRandomIntInclusive} from '../helpers/getRandomIntInclusive'
 
 export const LoadRandomUnderConstructionPage = () => {
-  const pages = ['basic']
+  const pages = ['one']
 
   const [page, setPage] = useState(pages[getRandomIntInclusive(0,pages.length - 1)])
 
   const renderPage = () => {
     switch(page){
-      case 'basic':
-        return <UnderConstructionBasic />
+      case 'one':
+        return <LandingPageOne />
       default:
-        return <UnderConstructionBasic />
+        return <LandingPageOne />
     }
   }
 
