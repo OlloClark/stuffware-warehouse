@@ -1,6 +1,8 @@
 import {useState} from "react";
 import LandingPageOne from './Landing Pages/LandingPageOne'
 import LandingPageTwo from './Landing Pages/LandingPageTwo'
+import LandingPageThree from './Landing Pages/LandingPageThree'
+import LandingPageFive from './Landing Pages/LandingPageFive'
 import {getRandomIntInclusive} from '../helpers/getRandomIntInclusive'
 
 export const LoadRandomUnderConstructionPage = () => {
@@ -14,6 +16,10 @@ export const LoadRandomUnderConstructionPage = () => {
         return <LandingPageOne />
       case 'two':
         return <LandingPageTwo />
+      case 'three':
+        return <LandingPageThree />
+      case 'five':
+        return <LandingPageFive />
       default:
         return <LandingPageOne />
     }
