@@ -14,7 +14,10 @@ function LandingPageOne() {
 			<h4>
 				Thank you Ollo and Kayla for the very clever computer hooplah you're doing for us! Can't wait to see the result!
 			</h4>
-			<a href="www.amazon.com">
+			<a
+			 href="https://www.amazon.com"
+			 target="_blank"
+			>
 				Kayla said this link means we can keep the site running while it's under construction!
 			</a>
 		</div>
