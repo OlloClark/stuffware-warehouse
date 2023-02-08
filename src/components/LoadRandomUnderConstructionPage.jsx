@@ -6,7 +6,7 @@ import LandingPageFive from './Landing Pages/LandingPageFive'
 import {getRandomIntInclusive} from '../helpers/getRandomIntInclusive'
 
 export const LoadRandomUnderConstructionPage = () => {
-  const pages = ['one', 'two']
+  const pages = ['one', 'two', 'three', 'five']
 
   const [page, setPage] = useState(pages[getRandomIntInclusive(0,pages.length - 1)])
 
